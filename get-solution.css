@@ -1,0 +1,417 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Get Solution For Your Business */
+#get-solution-flex-container {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+#get-solution-img-container {
+  padding-top: 100px;
+}
+
+#get-solution-heading {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 49px;
+  color: #1C182B;
+  padding-left: 20px;
+}
+
+#get-solution-paragraph {
+  font-family: "Fira Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: #5E626C;
+  padding-left: 20px;
+}
+
+/* Professional Service at Affordable Price */
+#p-services {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 0.65px;
+  color: #9CA5B1;
+}
+
+#p-professional-service {
+  font-family: "Montserrat", sans-serif;
+  color: #1C182B;
+}
+
+#p-lorem-first, #p-lorem-second {
+  font-family: "Fira Sans";
+  color: #5E626C;
+}
+
+#button-get-free-quotes {
+  width: 177.04px;
+  height: 50.74px;
+  border-radius: 9px;
+  background-color: #6352BB;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+/* UX/UI Design */
+#item-ux-ui-container-x {
+  background-color: #6352BB;
+  border-radius: 4px;
+}
+
+#ux-ui-design-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  color: #FFFFFF;
+}
+
+#ux-ui-design-content {
+  font-family: "Fira Sans";
+  font-style: normal;
+  color: #FFFFFF;
+}
+
+/* Web Development */
+#item-web-dev-container-x {
+  background-color: #FFFFFF;
+  border-radius: 4px;
+}
+
+#web-development-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  color: #1C182B;
+}
+
+#web-development-content {
+  font-family: "Fira Sans";
+  font-style: normal;
+  color: #5E626C;
+}
+
+/* Social Media Management */
+#item-social-container-x {
+  background-color: #6352BB;
+  border-radius: 4px;
+}
+
+#social-media-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  color: #FFFFFF;
+}
+
+#social-media-content {
+  font-family: "Fira Sans";
+  font-style: normal;
+  color: #FFFFFF;
+}
+
+/* Graphic Design */
+#item-graphic-container-x {
+  background-color: #FFFFFF;
+  border-radius: 4px;
+}
+
+#graphic-design-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  color: #1C182B;
+}
+
+#graphic-design-content {
+  font-family: "Fira Sans";
+  font-style: normal;
+  color: #5E626C;
+}
+
+/* For Small Devices */
+@media screen and (max-width: 600px) {
+  /* Get Solution For Your Business */
+  #get-solution-flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #get-solution-img {
+    width: 80vw;
+  }
+
+  #get-solution-heading {
+    padding-top: 50px;
+  }
+
+  #get-solution-paragraph {
+    padding-top: 20px;
+  }
+
+  /* Professional Service at Affordable Price */
+  #professional-service-grid-container {
+    width: 80vw;
+    margin: 40px auto 20px;
+  }
+
+  #p-professional-service {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    padding: 10px;
+  }
+
+  #p-lorem-first, #p-lorem-second {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 10px;
+  }
+
+  #button-get-free-quotes {
+    margin-top: 20px;
+  }
+
+  /* UX/UI Design */
+  #item-ux-ui-container-x {
+    margin-top: 80px;
+  }
+
+  #ux-ui-design-logo-container {
+    padding: 20px 20px 0px;
+  }
+
+  #ux-ui-design-title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    padding: 20px 20px 0px;
+  }
+
+  #ux-ui-design-content {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 20px 20px 20px;
+  }
+
+  /* Web Development */
+  #item-web-dev-container-x {
+    margin-top: 20px;
+  }
+
+  #web-development-logo-container {
+    padding: 20px 20px 0px;
+  }
+
+  #web-development-title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    padding: 20px 20px 0px;
+  }
+
+  #web-development-content {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 20px 20px 20px;
+  }
+
+  /* Social Media Management */
+  #item-social-container-x {
+    margin-top: 20px;
+  }
+
+  #social-media-logo-container {
+    padding: 20px 20px 0px;
+  }
+
+  #social-media-title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    padding: 20px 20px 0px;
+  }
+
+  #social-media-content {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 20px 20px 20px;
+  }
+
+  /* Graphic Design */
+  #item-graphic-container-x {
+    margin-top: 20px;
+  }
+
+  #graphic-design-logo-container {
+    padding: 20px 20px 0px;
+  }
+
+  #graphic-design-title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    padding: 20px 20px 0px;
+  }
+
+  #graphic-design-content {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 20px 20px 20px;
+  }
+}
+/* For Medium Devices */
+@media screen and (max-width: 1800px) and (min-width: 601px) {
+  #professional-service-container-x {
+    grid-area: service;
+  }
+
+  #item-ux-ui-container-x {
+    grid-area: uxui;
+  }
+
+  #item-web-dev-container-x {
+    grid-area: webdev;
+  }
+
+  #item-graphic-container-x {
+    grid-area: graphic;
+  }
+
+  #item-social-container-x {
+    grid-area: social;
+  }
+
+  #professional-service-grid-container {
+    display: grid;
+    grid-template-areas: "service service uxui webdev" "service service graphic social";
+    width: 80vw;
+    margin: 100px auto 0px;
+  }
+
+  #get-solution-text {
+    padding: 150px 0px 0px 30px;
+  }
+
+  #get-solution-paragraph {
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  /* Professional Service at Affordable Price */
+  #p-services {
+    font-size: 20px;
+  }
+
+  #p-professional-service {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    width: 450px;
+    padding-top: 20px;
+  }
+
+  #p-lorem-first, #p-lorem-second {
+    padding-top: 30px;
+    width: 600px;
+    line-height: 24px;
+    font-size: 20px;
+  }
+
+  #button-get-free-quotes {
+    margin-top: 50px;
+  }
+
+  /* UX/UI Design */
+  #ux-ui-design-logo-container {
+    padding: 20px 20px 0px;
+  }
+
+  #ux-ui-design-title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    padding: 20px 20px 0px;
+  }
+
+  #ux-ui-design-content {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 20px 20px 20px;
+  }
+
+  /* Web Development */
+  #web-development-logo-container {
+    padding: 20px 20px 0px;
+  }
+
+  #web-development-title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    padding: 20px 20px 0px;
+  }
+
+  #web-development-content {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 20px 20px 20px;
+  }
+
+  /* Graphic Design */
+  #graphic-design-logo-container {
+    padding: 20px 20px 0px;
+  }
+
+  #graphic-design-title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    padding: 20px 20px 0px;
+  }
+
+  #graphic-design-content {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 20px 20px 20px;
+  }
+
+  /* Social Media Management */
+  #social-media-logo-container {
+    padding: 20px 20px 0px;
+  }
+
+  #social-media-title {
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    padding: 20px 20px 0px;
+  }
+
+  #social-media-content {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 20px 20px 20px;
+  }
+}/*# sourceMappingURL=get-solution.css.map */
